@@ -66,6 +66,10 @@ h1 {
   color: #888;
 }
 
+button {
+  cursor: pointer;
+}
+
 button:hover {
   border-color: #646cff;
 }
