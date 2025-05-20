@@ -5,12 +5,8 @@ import { defineConfig } from 'eslint/config';
 export default defineConfig([
   {
     files: ['**/*.{js,mjs,cjs}'],
-    plugins: { js, prettier },
-    extends: [
-      'js/recommended',
-      'eslint:recommended',
-      'plugin:prettier/recommended',
-    ],
+    plugins: ['js', 'prettier'],
+    extends: ['eslint:recommended', 'plugin:prettier/recommended'],
   },
   {
     rules: {
