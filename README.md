@@ -1,3 +1,5 @@
 ### Tailwind css 🍑 🚀 🧑‍💻
 
-Installation and configuration Tailwindcss.
+- installation and setting Tailwindcss + vite
+- installation and setting Vite
+- installation and setting ESLint with prettier
